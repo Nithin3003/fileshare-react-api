@@ -151,7 +151,7 @@ def submit_feedback():
         return jsonify({'error': str(e)}), 500
 
 
-@app.route('/api')
+@app.route('/')
 def home():
     
     return '''
